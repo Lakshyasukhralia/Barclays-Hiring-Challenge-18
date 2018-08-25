@@ -1,10 +1,9 @@
-n = int(input())
-q = int(input())
+X = [int(i) for i in input().split()]
 D = {}
 
 A = [int(i) for i in input().split()]
 
-for j in range(0,q):
+for j in range(0,X[1]):
     B = [int(j) for j in input().split()]
     D[j] = B
 
